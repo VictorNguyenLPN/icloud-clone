@@ -6,11 +6,15 @@ This project is a clone of the iCloud website (icloud.com) created for education
 
 - [iCloud Clone](#icloud-clone)
   - [Table of Contents](#table-of-contents)
-  - [UI Screenshots Demo](#ui-screenshots-demo)
+  - [Live Demo](#live-demo)
+  - [UI Screenshots](#ui-screenshots)
   - [Technologies Used](#technologies-used)
   - [Installation](#installation)
 
-## UI Screenshots Demo
+## Live Demo
+- https://icloud-clone-vippro888.vercel.app/
+
+## UI Screenshots
 
 ![](ui_screenshots/1.png)
 ![](ui_screenshots/2.png)

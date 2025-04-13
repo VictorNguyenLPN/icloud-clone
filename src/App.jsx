@@ -12,9 +12,9 @@ function App() {
 
       <Landing />
 
-      {/* <AlertNotification /> */}
+      <AlertNotification />
 
-      {/* <ScreenSizePanel position={"bottom-left"} /> */}
+      <ScreenSizePanel position={"bottom-left"} />
     </div>
   );
 }
