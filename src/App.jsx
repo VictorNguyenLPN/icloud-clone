@@ -7,14 +7,14 @@ import ScreenSizePanel from "./components/ScreenSizePanel";
 
 function App() {
   return (
-    <div className="app bg-gray-100 w-full max-w-full block overflow-x-hidden">
+    <div className="app bg-customBG-dark w-full max-w-full block">
       <Navbar />
 
       <Landing />
 
-      <Footer />
+      {/* <Footer /> */}
 
-      {/* <ScreenSizePanel position={"top-left"} /> */}
+      {/* <ScreenSizePanel position={"bottom-left"} /> */}
     </div>
   );
 }

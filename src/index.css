@@ -8,3 +8,18 @@
     scrollbar-color: rgba(255, 255, 255, 0.5) #1a1a1a;
     /* scroll-margin-block-start: 10rem; */
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .landing {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+  }
+  
+  .footer {
+    margin-top: auto;
+  }

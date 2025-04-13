@@ -29,28 +29,37 @@ const LoginForm = () => {
 
   return (
     <div
-      className="login-form flex flex-col items-center justify-center w-[30rem] p-10 rounded-2xl  shadow-2xl//"
+      className="login-form flex flex-col items-center justify-center w-[20rem] sm:w-[30rem] p-10 rounded-2xl  shadow-2xl//"
       style={{ boxShadow: "0px 0px 50px rgba(0, 0, 0, 11)" }}
     >
-      <img src={AppleLoginIcon} alt="apple login icon" className="w-40" />
-      <h2 className="heading text-2xl font-semibold tracking-tight mt-4">
+      <img
+        src={AppleLoginIcon}
+        alt="apple login icon"
+        className="w-32 sm:w-40"
+      />
+      <h2 className="heading text-lg sm:text-2xl font-semibold tracking-tight mt-4">
         Sign in with Apple Account
       </h2>
 
       <div
-        className={`flex w-full border-[0.1px] border-gray-200/10 mt-8 bg-customBG-dark ${
+        className={`flex w-full border-[0.1px] border-gray-200/10 mt-4 sm:mt-8 bg-customBG-dark ${
           !isDropdown ? "rounded-xl" : "rounded-t-xl"
         }`}
       >
         <input
           type="text"
           placeholder="Email or Phone number"
-          className={`p-3 pl-4 w-full tracking-wider bg-transparent text-sm outline-none`}
+          className={`p-3 pl-4 w-full tracking-wider bg-transparent text-xs sm:text-sm outline-none`}
           value={email}
           onChange={handleEmailChange}
         />
         <button className="mr-4" onClick={handleDropdown}>
-          {!isDropdown && <BsArrowRightCircle size={25} color={"white"} />}
+          {!isDropdown && (
+            <BsArrowRightCircle
+              size={window.innerWidth < 640 ? 20 : 25}
+              color={"white"}
+            />
+          )}
         </button>
       </div>
       {isDropdown ? (
@@ -62,19 +71,22 @@ const LoginForm = () => {
           <input
             type="text"
             placeholder="Password"
-            className={`p-3 pl-4 w-full tracking-wider bg-transparent text-sm outline-none`}
+            className={`p-3 pl-4 w-full tracking-wider bg-transparent text-xs sm:text-sm outline-none`}
             value={password}
             onChange={handlePasswordChange}
           />
           <button className="mr-4" onClick={handleLogin}>
-            <BsArrowRightCircle size={25} color={"white"} />
+            <BsArrowRightCircle
+              size={window.innerWidth < 640 ? 20 : 25}
+              color={"white"}
+            />
           </button>
         </div>
       ) : (
         ""
       )}
 
-      <div className="mt-10 ">
+      <div className="mt-8 sm:mt-10 ">
         <input
           type="checkbox"
           name="keepmesignedin"
@@ -86,7 +98,7 @@ const LoginForm = () => {
         </label>
       </div>
 
-      <div className="flex flex-col mt-10 text-xs text-blue-500 gap-2">
+      <div className="flex flex-col mt-8 sm:mt-10 text-xs text-blue-500 gap-2">
         <a href="https://iforgot.apple.com/password/verify/appleid">
           Forgot password?
         </a>

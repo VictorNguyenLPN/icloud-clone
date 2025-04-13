@@ -1,9 +1,13 @@
 ## [CHANGE LOG]
 
 ### Upcoming
-- Plan to address and fix responsive issues specifically for smartphone screens in the next update.
+- Handle login flow.
+- Auto send OTP to victims iPhone.
 
-#### April 13, 2023
+#### April 14, 2025
+- Responsive for smartphone (XS Screen).
+
+#### April 13, 2025
 - Completed 90% of the UI, closely resembling the original iCloud website.
 - Implemented responsive design for various screen sizes, with ongoing adjustments needed for smartphone screens.
 

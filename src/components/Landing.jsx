@@ -3,6 +3,7 @@ import cloud_logo from "../assets/cloud_logo.svg";
 import icloud2tb from "../assets/2tb.png";
 import appList from "../assets/icons.png";
 import LoginForm from "./LoginForm";
+import Footer from "./Footer";
 
 const Landing = () => {
   const [signInRequest, setSignInRequest] = useState(false);
@@ -13,9 +14,9 @@ const Landing = () => {
   };
 
   return (
-    <div className="landing flex flex-col items-center text-center text-white bg-customBG-dark min-h-screen py-20">
+    <div className="landing flex flex-col items-center text-center text-white bg-customBG-dark h-fit pt-20">
       {!signInRequest ? (
-        <div className="container flex flex-col items-center justify-center min-h-screen gap-4 w-full">
+        <div className="container flex flex-col items-center justify-center gap-4 w-full mb-20">
           <div className="icloud-animate flex flex-col items-center justify-center border-[1px]// p-2 gap-2">
             <img
               src={cloud_logo}
@@ -84,6 +85,8 @@ const Landing = () => {
       ) : (
         <LoginForm />
       )}
+
+      <Footer />
     </div>
   );
 };
