@@ -15,7 +15,7 @@ const Footer = () => {
         </button>
         <div className="p-2">|</div>
         <button className="p-2">
-          <a href="https://www.apple.com/legal/internet-services/icloud/">git
+          <a href="https://www.apple.com/legal/internet-services/icloud/">
             Terms & Conditions
           </a>
         </button>

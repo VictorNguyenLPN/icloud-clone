@@ -2,7 +2,7 @@ import React from "react";
 
 import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
-import Footer from "./components/Footer";
+import AlertNotification from "./components/AlertNotification";
 import ScreenSizePanel from "./components/ScreenSizePanel";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
 
       <Landing />
 
-      {/* <Footer /> */}
+      <AlertNotification />
 
       {/* <ScreenSizePanel position={"bottom-left"} /> */}
     </div>
