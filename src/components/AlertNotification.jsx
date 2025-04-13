@@ -10,7 +10,7 @@ const AlertNotification = () => {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed inset-0 flex items-center rounded-xl justify-center bg-black bg-opacity-50 p-10">
+    <div className="fixed inset-0 flex items-center rounded-xl justify-center bg-black bg-opacity-70 p-10">
       <div className="bg-red-600 text-white p-6 rounded shadow-2xl text-center">
         <p className="text-2xl">
           This is an educational project to demonstrate phishing attacks <br />I

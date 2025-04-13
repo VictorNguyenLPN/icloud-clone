@@ -9,7 +9,7 @@ const Landing = () => {
   const [signInRequest, setSignInRequest] = useState(false);
 
   const handleSignInButton = () => {
-    console.log("Sign In button clicked");
+    // console.log("Sign In button clicked");
     setSignInRequest(!signInRequest);
   };
 
