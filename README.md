@@ -7,22 +7,14 @@ This project is a clone of the iCloud website (icloud.com) created for education
 - [iCloud Clone](#icloud-clone)
   - [Table of Contents](#table-of-contents)
   - [UI Screenshots Demo](#ui-screenshots-demo)
-      - [Desktop (PC / Laptop)](#desktop-pc--laptop)
-      - [Mobile phone](#mobile-phone)
   - [Technologies Used](#technologies-used)
   - [Installation](#installation)
 
 ## UI Screenshots Demo
 
-#### Desktop (PC / Laptop)
 ![](ui_screenshots/1.png)
 ![](ui_screenshots/2.png)
 ![](ui_screenshots/3.png)
-![](ui_screenshots/7.png)
-
-#### Mobile phone
-![](ui_screenshots/4.png)
-![](ui_screenshots/5.png)
 
 ## Technologies Used
 
