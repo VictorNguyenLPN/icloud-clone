@@ -14,7 +14,7 @@ function App() {
 
       <AlertNotification />
 
-      <ScreenSizePanel position={"bottom-left"} />
+      {/* <ScreenSizePanel position={"bottom-left"} /> */}
     </div>
   );
 }
